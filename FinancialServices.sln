@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{76E3572C-3BB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Services.OpenBank.Core", "Financial.Services.OpenBank.Core\Financial.Services.OpenBank.Core.csproj", "{C7D82106-F13E-41DB-BA43-5A91B514C515}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Services.OpenBank.Infra", "Financial.Services.OpenBank.Infra\Financial.Services.OpenBank.Infra.csproj", "{B7F16DCC-F882-4199-8B89-5A7D1327F425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C7D82106-F13E-41DB-BA43-5A91B514C515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7D82106-F13E-41DB-BA43-5A91B514C515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7D82106-F13E-41DB-BA43-5A91B514C515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F16DCC-F882-4199-8B89-5A7D1327F425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F16DCC-F882-4199-8B89-5A7D1327F425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F16DCC-F882-4199-8B89-5A7D1327F425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F16DCC-F882-4199-8B89-5A7D1327F425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +36,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C7D82106-F13E-41DB-BA43-5A91B514C515} = {C761C9F2-6AD5-474A-A128-A2A6ADD7EEBA}
+		{B7F16DCC-F882-4199-8B89-5A7D1327F425} = {5452A6A7-F2B6-41AB-BED9-59019DFD23ED}
 	EndGlobalSection
 EndGlobal
